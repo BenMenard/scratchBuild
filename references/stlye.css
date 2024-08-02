@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial';
+}
+
+.top-section {
+    background-color: #232a6c;
+    height: 445px;
+    border-radius: 0 0 10px 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.directory {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    /*use for the directory items, possibly use float and radius to give a clean look to buttons; possibly add sizing effect on hover*/
+}
+
+.directory-links {
+    font-size: larger;
+    /*add anchors/redirects to appropriate site; use as boilerplate across all pages*/
+}
+
+.page-label {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.question-header {
+    text-align: left;
+    font-size: large;
+    margin-left: 25px;
+}
+
+.question {
+    text-align: left;
+    font-size: medium;
+    line-height: 22px;
+    padding-bottom: 25px;
+    margin-left: 35px;
+}
